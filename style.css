@@ -91,12 +91,11 @@ aside p {
     bottom: 10px;
     text-align: center;
     width: 100%;
-    
-    color: white;
 }
 
-aside a {
-    color: white;
+aside a,
+aside p {
+    color: rgba(255, 255, 255, 0.856);
 }
 
 aside div h1 {
