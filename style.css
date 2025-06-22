@@ -161,6 +161,12 @@ main .signup-section {
     padding-bottom: 10px;
 }
 
+.signup-section input {
+    width: 40%;
+    border-radius: 4px;
+    border: 1px solid rgb(233, 233, 233);
+}
+
 main .account-section button {
     background-color: var(--button-color);
     color: white;
