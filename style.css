@@ -138,12 +138,19 @@ main {
     font-family: Roboto;
 }
 
-main div {
+main .signup-section,
+main .account-section,
+main .header {
+    padding: 0 0 0 3vw;
     display: flex;
     flex-flow: column wrap;
-    gap: 3vh;
-    padding: 0 0 0 3vw;
 }
+
+main .account-section,
+main .header {
+    gap: 3vh;
+}
+
 
 main h2 {
     font-weight: 500;
@@ -159,10 +166,25 @@ main .signup-section {
 
     padding-top: 10px;
     padding-bottom: 10px;
+
+    gap: 1.5vh;
+}
+
+.form {
+    display: flex;
+}
+
+.form-row {
+    display: flex;
+    gap: 4vw;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
 }
 
 .signup-section input {
-    width: 40%;
     border-radius: 4px;
     border: 1px solid rgb(233, 233, 233);
 }
