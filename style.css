@@ -213,6 +213,10 @@ label {
     letter-spacing: 2px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 main .account-section button {
     background-color: var(--button-color);
     color: white;
